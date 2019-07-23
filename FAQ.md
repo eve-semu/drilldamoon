@@ -1,0 +1,81 @@
+# FAQ
+
+## General
+
+### I logged in and don't see anything. Why?
+
+Unless someone gives you permission to see some of their structures you won't see any. Your corporation or alliance management need to have adopted _drilldamoon_ for it to show you anything useful.
+
+### I logged in without any of the executive-permissions (Station-Manager, Accountant) selected. How can I change that now?
+
+Just log out and re-login with the permissions you want to set. The last login will overwrite the permissions given for your account. Remember that, when using the same account across multiple devices.
+
+### How is my account remembered when I re-visit _drilldamoon_?
+
+A token is stored in your browser-cache so that you don't need to re-login every time you visit the site.
+
+### When is the data updated on the site?
+
+On the backend the data is fetched as soon and as often as possible only being limited by caching of ESI. So generally speaking all station-information is updated once every 30min, all mining-activity is updated once every hour. As of this moment the site itself is never updated so it does not automatically refresh to show you new information. You need to refresh the site manually.
+
+### I don't see ongoing mining operations for some structures. The ETA counts down but no operation is created. Why?
+
+This happens when the corporation that owns the structure does not have an accountant signed in. _drilldamoon_ needs an accountant to read information about an ongoing mining-operation via ESI.
+
+### I know that there are people currently mining on an asteroid-field but _drilldamoon_ shows no activity. Why?
+
+This information is delayed by one hour due do ESI caching.
+
+### When mousing over moon-products I see ??? where there should be ratios. What is going on there?
+
+_drilldamoon_ tries to determine the moon-products from past and ongoing mining-operations automatically. Due to questionable design-choices in ESI there is no way to determine the exact ratios in this process which is
+why only ??? is shown to you. However, the manager of the structure has the possibility to provide a moon-scan to make the exact ratios available to _drilldamoon_.
+
+### How do I recognize if an asteroid-field was created by a blue explosion?
+
+Currentently there is no way, but maybe this feature will be added in the future.
+
+### How can I set waypoints for my alt-characters as well?
+
+First you need to add your alt-characters to _drilldamoon_ by pressing the arrow next to your character-image on the top right of the page and follow the login instructions. Once done you can choose for which character you want to set waypoints from the drop-down list. Notice that alternate characters added this way won't change the number of refineries you see on the site. You add them only for setting waypoints.
+
+### Yeah nice, but how can I set waypoints for all of my added characters at once?
+
+You hold shift-key while pressing the set-waypoint button.
+
+## Manager
+
+### How do I update permissions for multiple refineries at once?
+
+In table header of the last column there is a button that lets you select multiple refineries at once. Hover over there with your mouse to get more details on how this works in case it is not obvious immediately.
+
+### What is going on with the transfer tab? What is that?
+
+Let's say your corporation is lending a refinery to some other corporation for profit and this corporation is using _drilldamoon_ as well. In this case you wouldn't want to manage the permissions of the structure in question for this corporation. Therefore you can just use the transfer-feature to give control of the structure to the other corporation on _drilldamoon_. (notice that no in-game action is taken when you do that). The corporation is then able to set permissions for their members and they also get access to mining reports the structure is generating.
+
+### I transferred a refinery but now I cannot edit the permissions anymore. Why?
+
+These permissions are now controlled by the corporation you transferred the structure to. You can't edit them (for obvious reasons) and you can't see them (for security reasons).
+
+### I got a refinery transferred to me and I want to further transfer it to some internal management corporation but the tab is greyed out. Why?
+
+Only the in-game owner of a refinery can transfer it to some other corporation. If you want it to be transferred to some other corporation ask the owner to do it for you.
+
+### I got a refinery transferred to me and I want to add a moon-scan to it like I do normally but the tab is greyed out. Why?
+
+Only the in-game owner of a refinery can edit structure related settings of a given refinery. If no scan is provided ask the station owner to add one.
+
+## Accountant
+
+### I clicked multiple times on the csv-button but nothing is happening. What is going on?
+
+Generating a csv-report is a two-step process. With the first click the report is generated by your browser by downloading additional data from ESI. With the second click the report is copied to your clipboard and from there
+you can paste it into any application you like. Note that the two step process is a security limitation enforced by your browser to prevent malicious applications to write to your clipboard without your consent.
+
+### How can I share this nice mining-report with the rest of my corporation?
+
+You can just copy the link and post it to anyone you like.
+
+### How long is the operation-data retained?
+
+Currently there is no time limit since the amount of data in a report is very small. That may or may not change in the future.

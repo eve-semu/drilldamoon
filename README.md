@@ -10,23 +10,30 @@ If you have the corporation-role "Station_Manager" in-game you can enable _drill
 * check when ongoing pulls of your refineries will finish to be better able to plan when to setup the next pull.
 * add a moon-scan and information about installed rigs to your refineries to improve the information _drilldamoon_ is able to show to users.
 
+![Manager Table](/manager.jpg)
+
 #### Accountant
 If you have the corporation-role "Accountant" in-game you can enable _drilldamoon_ for your corporation by ticking the box "Accountant" and logging in. This enables _drilldamoon_ to track ongoing (and past) mining-operations for your refineries. The collected data will be used to show more useful information to logged in users. As an accountant you can:
 * see a summary of passed mining-operations for all your corporation structures.
 * generate a report of a specific mining-operation that you can share with whomever you want via a link.
+
+![Accountant Table](/accountant.jpg)
 
 #### Normal user
 As normal user you don't have to provide any esi-permissions to _drilldamoon_. But, you still need to authenticate with your EVE-online character so that _drilldamoon_ can generate a list of refineries you are allowed to see. This list is based on permissions other logged in "Station Managers" have given you (or your corporation/alliance). Once logged in you will be able to see (for every refinery you have permissions for):
 * name, owner, location, pull-timer (eta), cycle-time (of the current pull)
 * ore-types and their quality the asteroid field will contain. You may also see the exact ratios if the station-manager has provided that information.
 
+![Pull Table](/pull.jpg)
+
 If the corporation owning the structure has an Accountant logged in to _drilldamoon_ you will also see if there is an active asteroid-field and stats about this mining operation (like how many players are taking part in it).
+
+![Operation Table](/operation.jpg)
 
 If you choose to grant the set_waypoint_permission on login to _drilldamoon_ you can set a waypoint to a refinery for your EVE-character directly via the website. You can even add multiple characters to your _drilldamoon_ account and set the waypoints for all of them at once.
 
-
 ## FAQ
-Coming soon.
+[Click here](/FAQ.md)
 
 ## How to report bugs or make enhancement requests?
 * create an issue here on github (preferred)
